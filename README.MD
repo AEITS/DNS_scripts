@@ -4,4 +4,4 @@ Various bash/perl/python scripts used to manage DNS
 
 Typically, this is run from a CRON job. For example, to run the check every 10 minutes:
 
-*/10 * * * * /home/dnsadmin/CF_DNS.sh > /dev/null 2>&1
+*/10 * * * * /home/dnsadmin/wpeng_dns.sh > /dev/null 2>&1
