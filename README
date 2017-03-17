@@ -1,3 +1,0 @@
-Various bash/perl/python scripts used to manage DNS
-
-*wpeng_dns.sh* - A bash script to automatically change the dns A record of your site on you DNS server when it detects that WPEngine has changed it. This lets you have an ordinary DNS without having to use a service that supports flattened CNAME records or recursive DNS.
