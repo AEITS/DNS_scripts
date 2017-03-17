@@ -1,0 +1,15 @@
+$TTL 3600        ; 1 hour
+@ IN SOA         dns1.dnslink.net. hostmaster.dnslink.net. (
+                 2017030900
+                 3600
+                 3600
+                 604800
+                 3600 )
+                                  IN               NS               dns1.dnslink.net.
+                                  IN               NS               dns2.dnslink.net.
+                                  IN               A                111.222.333.444
+mydomain.net.    300              IN               MX               10 dodahdodah.ess.barracudanetworks.com.
+mydomain.net.    300              IN               TXT              "v=spf1 ip4:555.666.888.0/24 ip4:444.888.333.0/24 ip4:424.140.999.155/32 include:qqqnet.com -all"
+www                               IN               CNAME            mydomain.net.
+;
+; You should use tabs between In at least the A record definition line to allow the script update script to work reliably. 
