@@ -12,4 +12,5 @@ mydomain.net.    300              IN               MX               10 dodahdoda
 mydomain.net.    300              IN               TXT              "v=spf1 ip4:555.666.888.0/24 ip4:444.888.333.0/24 ip4:424.140.999.155/32 include:qqqnet.com -all"
 www                               IN               CNAME            mydomain.net.
 ;
-; You should use tabs between In at least the A record definition line to allow the script update script to work reliably. 
+; Typical BIND zone record file.
+; Convention is to use tabs between columns of the zone file definition.
